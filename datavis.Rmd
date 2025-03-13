@@ -1,16 +1,28 @@
-# You can add stuff here if you want: Plotly
+# MACS 40700 Data Visualization - Final Project
 
-Look I have a plotly plot here! Sample diamond data by cut. 
+For my final project in this course, I created a portfolio to visualize my 
+MA thesis results. Below, I present the plots I developed using R Studio, 
+ggplot2, Shiny, and Tableau. Taking this course allowed me to:
 
-```{r, message = F, echo = F, warning = F}
-library(tidyverse)
-library(plotly)
-data(diamonds)
-p <- ggplot(data = diamonds, aes(x = carat, y = price)) +
-  geom_point(aes(text = paste("clarity:", clarity), color = clarity), size = 0.5) +
-  geom_smooth(aes(colour = cut, fill = cut)) + facet_wrap(~ cut) +
-  guides(color = "none")
+1) Gain hands-on experience with data visualization tools.
+2) Understand data visualization principles such as truthfulness, functionality,
+beauty, insightfulness and enlightenment.
 
-ggplotly(p)
+Accompanying the plots, you can also look at the rationale of my design choices and
+intended takeaways.
 
+## Overview of MA thesis project
+
+### Moralization across subreddits
+
+```{=html}
+<iframe src="https://public.tableau.com/views/RQ1_17419062265120/Dashboard1?:language=en-US&:display_count=y&publish=yes&:toolbar=yes"
+        width="100%" height="700" style="border:none;" allowfullscreen>
+</iframe>
 ```
+
+
+### Moralization within self-improvement topics
+
+### Moralization and emotions
+
