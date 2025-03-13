@@ -1,21 +1,20 @@
-name: "Student, Computational Social Scientist"
+name: "Natasha Carpio Castellanos, Computational Social Scientist"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: 'Projects' ## setting up a drop down menu
+    - text: 'Projects' 
       menu:
-        - text: 'Plotly'
+        - text: 'Data Visualization'
           href: text.html
-        - text: 'Shiny/Tableau'
-          href: text2.html
-    - text: "About"
+    - text: "About me"
       href: about.html
     - icon: fa-github fa-lg
-      href: http://github.com/
+      href: http://github.com/natashacarpcast
 output: 
   html_document:
     theme: united
     toc: yes
     toc_float:
       collapsed: false
+    css: custom.css

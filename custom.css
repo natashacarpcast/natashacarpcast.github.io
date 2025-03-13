@@ -1,44 +1,46 @@
 #main .nav-pills > li.active > a,
 #main .nav-pills > li.active > a:hover,
 #main .nav-pills > li.active > a:focus {
-   background-color: #f433ff;
+   background-color: #704d63;
 }
 
 /* Change navbar link text color */
 .navbar-nav .nav-link {
-  color: #FF5733; /* Text color */
+  color: #8c5d7b
+; /* Text color */
 }
 
 /* Change navbar link text color on hover */
 .navbar-nav .nav-link:hover {
-  color: #800;  /* Text color when hovering */
+  color: #8c5d7b
+;  /* Text color when hovering */
 }
 
 #main .nav-pills > li > a:hover {
-  background-color: #f433ff;
+  background-color: #704d63;
 }
 
 #main a:link {
-  color: #f433ff;
+  color: #704d63;
 }
 
 /* visited link */
 #main a:visited {
-  color: #881ca3;
+  color: #6263a6;
 }
 
 /* mouse over link */
 #main a:hover {
-  color: #f433ff;
+  color: #704d63;
 }
 
 /* selected link */
 #main a:active {
-  color: #716464;
+  color: #6263a6;
 }
 
 h1,h2,h3,h4,h5,h6,legend{
-    color: #f433ff;
+    color: #704d63;
 }
 
 h1 {
@@ -54,41 +56,41 @@ body {
 }
 
 #nav-top span.glyphicon {
-  color: #f433ff;
+  color: #704d63;
 }
 
 #table-of-contents header{
-    color:#f433ff;
-    background-color: #f433ff;
+    color:#704d63;
+    background-color: #704d63;
 }
 
 .list-group-item.active,.list-group-item.active:hover,.list-group-item.active:focus {
     z-index: 2;
     color: #ffffff;
-    background-color: #f433ff;
-    border-color: #f433ff
+    background-color: #704d63;
+    border-color: #704d63
 }
 
 
 a {
-    color: #881ca3;
+    color: #6263a6;
     text-decoration: none
 }
 
 
 
 a:hover, a:focus{
-    color:#f433ff
+    color:#704d63
     text-decoration: underline
 }
 
 a:visited{
-    color:#f433ff
+    color:#704d63
 }
 
 #sidebar {
-    color: #f433ff;
-    background: #f433ff;
+    color: #704d63;
+    background: #704d63;
 }
 
 #sidebar h2 {
@@ -106,11 +108,11 @@ a:visited{
 }
 
 .navbar {
-    background-image: linear-gradient(120deg, #f433ff, #881ca3);
+    background-image: linear-gradient(120deg, #704d63, #964d78);
 }
 
 .nav-links li a {
-    color: #881ca3;
+    color: #6d6e5c;
     text-decoration: none;
     padding: 10px 15px;
     display: inline-block;
@@ -123,32 +125,34 @@ a:visited{
 
 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
     color: #ffffff;
-    background-color: #881ca3
+    background-color: #8c5d7b
+
 }
 
 .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
-    color: #f433ff;
-    background-color: #881ca3
+    color: #ffffff;
+    background-color: #8c5d7b
+
 }
 
 .navbar-default .navbar-collapse,.navbar-default .navbar-form {
-    border-color: #f433ff
+    border-color: #704d63
 }
 
 .navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-nav>.open>a:focus {
-    background-color: #f433ff;
+    background-color: #704d63;
     color: #ffffff
 }
 
 .dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {
     text-decoration: none;
     color: #ffffff;
-    background-color: #f433ff
+    background-color: #704d63
 }
 
 .dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus {
     color: #ffffff;
     text-decoration: none;
     outline: 0;
-    background-color: #f433ff
+    background-color: #704d63
 }
