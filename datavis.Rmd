@@ -235,7 +235,7 @@ This final plot explores the nuances of moral language at the word level. Built 
 Words are sized according to their frequency and colored by topic. If a word appears in multiple topics, it is repeated accordingly, which enables a more detailed exploration of how moral language shifts across contexts. For instance, the word “wrong” takes on a noticeably stronger negative tone in the Mental Health topic than in Confidence & Dating, highlighting how emotional connotation can vary by theme.
 Using a text data visualization revealed two interesting insights that would have been impossible to detect without a plot:
 As words become more negative in emotional tone, they also tend to become more positive, suggesting that self-improvement may often carry a dual emotional charge, capturing both the uplifting and challenging aspects of personal growth.
-Words cluster spatially by topic across the emotional axes, indicating that topic influences the emotional tone of moral language.
+Also, words cluster spatially by topic across the emotional axes, indicating that topic influences the emotional tone of moral language.
 
 Although the plot includes a large number of words, making it difficult to interpret every one individually, these broader patterns offer meaningful insights. They add depth to our understanding of how morality is expressed across different areas of self-improvement, inviting further reflection on the emotional complexity of moralized discourse.
 
