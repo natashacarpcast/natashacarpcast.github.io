@@ -61,7 +61,7 @@ To reproduce this data visualization project, you'll need:
 - [_site.yml:](_site.yml) This file contains the professional site's navigation structure
 - [custom.css:](custom.css) This file contains CSS customization code for the website
 - [datavis-files/data](datavis-files/data): this folder contains data files for the data visualization project
-- [datavis_files/figure-html(datavis_files/figure-html): this folder stores the generated ggplot image for correct rendering on Github Pages
+- [datavis_files/figure-html](datavis_files/figure-html): this folder stores the generated ggplot image for correct rendering on Github Pages
 - [datavis.Rmd](datavis.Rmd): this file contains the code for the data visualization page, including one of the plots directly coded and 
 Shiny/Tableau embeddings. 
 - [datavis.html](datavis.html): this file contains the knitted HTML file for the [datavis.Rmd](datavis.Rmd) page.
