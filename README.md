@@ -21,7 +21,7 @@ All comments and submissions from three subreddits (r/selfimprovement, r/investi
 The original datasets included each entry's id, text, date etc.  
 
 Data cleaning and previous processing were done on earlier stages of my project. 
-Main processing included the usage of the  Linguistic Inquiry and Word Count (LIWC) software to calculate morality and emotional scores, 
+Main processing included the usage of the  [Linguistic Inquiry and Word Count (LIWC)](https://www.liwc.app/) software to calculate morality and emotional scores, 
 the use of the [Moral Foundations Dictionary 2.0 (MFD)](https://www.liwc.app/dictionaries) using the same software and the use of a
 [MoralBERT classifier.](https://github.com/vjosapreniqi/MoralBERT) 
 
