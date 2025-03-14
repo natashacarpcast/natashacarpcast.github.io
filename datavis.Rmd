@@ -87,7 +87,7 @@ The LIWC bars are more straightforward, representing a single score and thus usi
 ### 2. Moralization within self-improvement topics
 :::
 
-```{r topics bubbles plot setup, message = F, echo = F, warning = F}
+```{r topics bubbles plot, message = F, echo = F, warning = F}
 library(ggplot2)
 library(dplyr)
 library(forcats)
