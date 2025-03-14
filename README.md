@@ -35,7 +35,7 @@ the following files can be downloaded for directly working on the visualization 
 1) [engineered_data.csv:](datavis-files/data/engineered_data.csv) This file contains the results from the LIWC software used for the first Tableau
 plot for RQ1. It was also used for the first Tableau plot for RQ3. 
 2) [moral-bert-results-binary.csv:](datavis-files/data/moralbert-result-binary.csv): This file contains the binary designation of Reddit documents to
-moral values based on the [MoralBERT classifier.](https://github.com/vjosapreniqi/MoralBERT). It was used for the bottom plot from the Tableau 
+moral values based on the [MoralBERT classifier](https://github.com/vjosapreniqi/MoralBERT). It was used for the bottom plot from the Tableau 
 dashboard corresponding to RQ1. 
 3) [final_data.csv](datavis-files/data/final_data.csv): This file contains the results from the LIWC software combined with the results from topic modeling, where all documents
 are assigned to a single topic. It was used for the visualizatons on RQ2. 
