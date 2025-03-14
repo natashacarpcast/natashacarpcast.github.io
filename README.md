@@ -63,5 +63,5 @@ Shiny/Tableau embeddings.
 
 ## Additional Information
 
-The Shiny app cannot be deployed from a Github Pages repository, so its code can be found independently on 
-[its own Shiny apprepository](https://github.com/natashacarpcast/shiny-finalproject-datavis)
+The Shiny app cannot be deployed from a Github Pages repository, so its code can be found independently on
+[its own Shiny app repository](https://github.com/natashacarpcast/shiny-finalproject-datavis)
