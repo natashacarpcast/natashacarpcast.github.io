@@ -27,7 +27,7 @@ the use of the [Moral Foundations Dictionary 2.0 (MFD)](https://www.liwc.app/dic
 
 Topic modeling was also key in the project and it was done using the Gensim library.
 
-More details on all of this steps can be found on my [thesis repository](https://github.com/natashacarpcast/moralization-selfimprovement)
+More details on all of these steps can be found on my [thesis repository](https://github.com/natashacarpcast/moralization-selfimprovement)
 
 On the [data folder](datavis-files/data) inside the [data visualization project folder](datavis-files)
 the following files can be downloaded for directly working on the visualization project:
