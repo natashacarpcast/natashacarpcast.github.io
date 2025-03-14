@@ -378,21 +378,321 @@ functionality, beauty, insightfulness and enlightenment.</li>
 </ol>
 <p>Accompanying the plots, you can also look at the rationale of my
 design choices and intended takeaways.</p>
-<div id="overview-of-ma-thesis-project" class="section level2">
+<p><br><br></p>
+<div id="overview-of-ma-thesis-project" class="section level2"
+style="text-align: center;">
 <h2>Overview of MA thesis project</h2>
-<div id="moralization-across-subreddits" class="section level3">
-<h3>Moralization across subreddits</h3>
-<iframe src="https://public.tableau.com/views/RQ1_17419062265120/Dashboard1?:language=en-US&:display_count=y&publish=yes&:toolbar=yes"
-        width="100%" height="700" style="border:none;" allowfullscreen>
+<div id="the-moralization-of-self-improvement" class="section level3">
+<h3>The Moralization of Self-Improvement</h3>
+</div>
+</div>
+<p>Self-improvement is meant to help people grow, being an “essential
+human calling” —according to philosopher Rudolf Allers— to achieve our
+fullest potential (García-Alandete 2022). However, in today’s culture
+the desire to improve has often been portrayed with a moralized tone
+that has been related to increased anxiety, pressure, and self-doubt.
+While self-improvement has been studied by philosophers and
+psychologists since long ago, the way it is experienced today requires a
+specific examination in its current context (Coeckelbergh 2022).</p>
+<p>The intrinsically positive pursuit of self-improvement and choosing
+goals that align with one’s ideals has turned into a source of pressure
+and stress when these goals are framed as socially expected moral
+obligations. Discussions around self improvement today do not simply
+encourage growth but frame certain specific behaviors, that are
+sometimes unattainable for many, as moral imperatives. This can lead to
+the stigmatization of those who do not conform to what is perceived as
+“correct” or “morally right”. Furthermore, the new standards transform
+self-care into a source of guilt (Kraaijeveld and Jamrozik 2022).</p>
+<p>Previous research has analyzed the use of moralizing language on
+social media platforms, as well as users’ experiences when engaging with
+content. For instance, one study identified moralization in Instagram
+influencers’ discourse around self-improvement, where they promote very
+specific behaviors as the correct (Baker 2022). Other studies have shown
+that engagement with Instagram trends focused on self-improvement (such
+as #fitspiration for physical appearance) can lead to self-obsession,
+perfectionism, stress, feelings of inadequacy, and even depression
+(Coeckelbergh 2022; Bell, Talbot, and Deighton-Smith 2024). While these
+studies have either focused on the moralizing tone or the emotional
+response, less is known about the relationship between the two
+specifically: how moral language itself contributes to the emotional
+experience of self-improvement. Additionally, most of these studies have
+been small-scale and have largely concentrated on physical appearance
+goals, leaving a gap in understanding how these patterns manifest on a
+broader scale or in relation to other areas of self-improvement.</p>
+<p>This research aimed to address that gap by analyzing the presence of
+moral language in self-improvement discussions at a large scale and
+across different sub-topics, as well as evaluating its relationship with
+negative emotions. It was found that moralization language does exist
+around the desire to self improve and that content with higher
+moralization language tends to show more negative emotion. By examining
+self-improvement through these lens, this study contributes to a deeper
+understanding of how human aspirations for growth are shaped by the
+cultural narratives around them that frame them as moral obligations.
+Ultimately, this project is only one step of a larger research agenda:
+How can the human tendency for self-improvement be experienced in a way
+that leads to a truly “good life” rather than unattainable ideals?</p>
+<div style="text-align: center;">
+<p><br><br></p>
+<div id="data" class="section level3">
+<h3>Data</h3>
+</div>
+</div>
+<p>Data from the subreddit <a
+href="https://www.reddit.com/r/selfimprovement/">r/selfimprovement</a>
+was obtained through <a
+href="https://academictorrents.com/details/56aa49f9653ba545f48df2e33679f014d2829c10">Academic
+Torrents.</a></p>
+<div style="text-align: center;">
+<p><br><br></p>
+<div id="guiding-research-questions" class="section level3">
+<h3>Guiding Research Questions</h3>
+</div>
+</div>
+<p>Three research questions were formulated to guide the project:</p>
+<ul>
+<li>RQ 1. Is moral language present when talking about
+self-improvement?</li>
+<li>RQ 2. Are there some specific topics within self-improvement
+discussions that tend to be discussed with a higher moral tone?</li>
+<li>RQ 3. How does the usage of moral language associate with emotions
+in the context of self-improvement?</li>
+</ul>
+<p>The following visualizations are organized by research question.</p>
+<p><br><br></p>
+<div id="moralization-across-subreddits" class="section level3"
+style="text-align: center;">
+<h3>1. Moralization across subreddits</h3>
+<iframe src="https://public.tableau.com/views/RQ1_17419062265120/Dashboard1?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" width="600px" height="800px">
 </iframe>
+<p><a
+href="https://public.tableau.com/views/RQ1_17419062265120/Dashboard1?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link">Link
+in case the embedding doesn’t work</a></p>
 </div>
+<p><br></p>
+<p>For assessing the presence of moral language in r/selfimprovement, it
+was compared with other two subreddits: r/investing and r/homeowners.
+Three different ways of measuring moralization were employed:</p>
+<p>1- The moral dimension from the <a href="https://www.liwc.app/">LIWC
+dictionary</a></p>
+<p>2- The <a href="https://www.liwc.app/dictionaries">Moral Foundations
+Dictionary 2.0 (MFD)</a> (also using the LIWC software)</p>
+<p>3- <a
+href="https://github.com/vjosapreniqi/MoralBERT">MoralBERT</a></p>
+<p>The goal of the visualization was to present the results from the
+three methods collectively, thus strengthening the argument that
+self-improvement is a more moralized topic compared to others,
+regardless of the method for measuring employed.</p>
+<p>Using bar charts is a very simple approach but it makes the
+visualization easy to interpret and therefore functional. The scores,
+according to each method, are displayed on the axes to allow the user to
+visualize the raw score from the measurement tool, staying truthful to
+the data.</p>
+<p>The Y-axes for the top plot are independent because the MFD scores
+tend to be higher, as it incorporates multiple dimensions, while the
+MoralBERT is also independent since its results are calculated in a
+fundamentally different way from the dictionary-based approaches. An
+alternative presentation could be through tables, but this would make it
+difficult to grasp the overall picture, given that each measurement
+operates on a different scale. The visualization, therefore, adds
+insight by combining the findings into a single narrative: that
+self-improvement is a more moralized topic. Ultimately, it is
+enlightening, as it visually highlights the gap in moralization compared
+to other topics, encouraging the reader to reflect on the gap and what
+it means.</p>
+<p>Both the MFD and the MoralBERT results are based on the <a
+href="https://moralfoundations.org/">Moral Foundations Theory</a> that
+suggest that morality is composed of different “foundations” or values,
+so I chose stacked bar charts to separate between each foundation. By
+excluding foundation labels, the emphasis remains on the overall score
+and simplicity is preserved. However, interactivity allows users to
+hover over each foundation to explore the specific foundations details.
+This interactivity is precisely why Tableau was chosen for the
+visualization. The color choices for the MFD and MoralBERT results were
+carefully selected to represent each foundation’s values while
+maintaining accessibility. Both used consistent colors to make it
+visually appealing. The chosen colors aim to evoke associations with the
+underlying concepts of each foundation:</p>
+<ul>
+<li>Authority (Red): Red is often associated with power, strength, and
+leadership.</li>
+<li>Care (Light Blue): Light blue is commonly linked to calmness, trust,
+and compassion, aligning with the Care foundation’s focus on empathy,
+nurturing, and concern for others’ well-being.</li>
+<li>Fairness (Yellow): Yellow represents fairness as a value tied to
+justice and equality</li>
+<li>Loyalty (Orange): Orange conveys warmth, enthusiasm, and connection,
+reflecting the sense of loyalty, unity, and community that this
+foundation promotes.</li>
+<li>Sanctity (Light Purple): Light purple evokes a sense of purity and
+spirituality.</li>
+</ul>
+<p>The LIWC bars are more straightforward, representing a single score
+and thus using only one color. Hovering over them reveals the mean score
+values for each subreddit. The combination of the military green with
+the moral foundation’s colors create harmony for maintaining beauty.</p>
+<p><br><br></p>
 <div id="moralization-within-self-improvement-topics"
-class="section level3">
-<h3>Moralization within self-improvement topics</h3>
+class="section level3" style="text-align: center;">
+<h3>2. Moralization within self-improvement topics</h3>
 </div>
-<div id="moralization-and-emotions" class="section level3">
-<h3>Moralization and emotions</h3>
+<p><img src="datavis_files/figure-html/topic%20bubbles%20plot-1.png" width="672" /></p>
+<p><br><br> A bubble chart was used to incorporate three dimensions: the
+topics within the r/selfimprovement, the average moral LIWC score for
+documents in each topic, and the proportion of each topic within the
+corpus. While the proportion isn’t central to the research question,
+varying bubble sizes make the visualization more engaging for
+beauty.</p>
+<p>Placing the moral scores on the horizontal axis frames morality as a
+spectrum, allowing readers to easily compare topics in terms of their
+average moral tone. Additionally, a reference line was included based on
+the LIWC manual’s reported mean for morality scores across Reddit and
+other sources. This helps contextualize the results and make it
+functional, showing how some topics are particularly more moralized than
+others.</p>
+<p>Using raw LIWC scores on the x-axis also keeps the plot transparent
+and grounded in the data to preserve truthfulness.</p>
+<p>Similar to the RQ1 plots, the colors where carefully chosen to be
+color-blind friendly and create harmony.</p>
+<p>One key takeaway from the visualization is that only the “social
+topics” exceed the baseline moral score, an insight facilitated by the
+plot. This pattern would be less apparent without sorting and comparing
+topics against a reference point. The plot is enlightening as it invites
+interpretation, hinting that something unique may be happening with
+these socially-oriented discussions, and it encourages the reader to
+explore why that might be.</p>
+<p><br><br></p>
+<iframe src="https://natashacarpcast.shinyapps.io/shiny-app/" style="border: 1px solid #AAA; width: 800px; height: 900px">
+</iframe>
+<p>After visualizing the difference in general moralization among the
+topics, this other interactive plot uses a Shiny app to allow the user
+to explore the different moral foundations proposed by the <a
+href="https://moralfoundations.org/">Moral Foundations Theory</a> and
+see how the topics vary in scores among those.</p>
+<p>This visualization not only shows the overall moral foundation score
+for each topic, but it also includes two additional subplots that break
+down each foundation into its virtue and vice components. According to
+the <a href="https://moralfoundations.org/">Moral Foundations
+Theory</a>, moral language can move in two directions: a virtue tone,
+which praises positive behaviors or attitudes (e.g., honest), and a vice
+tone, which conveys blame or negativity (e.g., dishonest). Including
+both the combined and separated scores allows the reader to gain deeper
+insights into how moral language is used within each topic. For
+instance, the “Health and Fitness” topic stands out for having the
+highest level of sanctity-related language, and notably, this is more
+strongly expressed through virtue terms than vice.</p>
+<p>The use of an interactive plot helps to present a lot of information
+without it being visually overwhelming or repetitive (as it would be if
+they were all displayed on the webpage at the same time). Presenting
+each foundation separately but within the same interactive space lets
+the reader explore the data in an engaging way.</p>
+<p>A key design choice was to fix the y-axis across all plots: for
+total, virtue, and vice scores across every foundation. By default,
+ggplot adjusts the y-axis based on the data range, so differences
+between foundations or vice/virtue plots would not be easy to grasp in
+such way. Fixing the axis prevents this distortion and makes comparisons
+across foundations more accurate and intuitive. For example, the
+“fairness” tab displays shorter bars, but this visually shows the
+insight that this foundation simply plays a smaller role in the dataset
+compared to other foundations like “care.”</p>
+<p>While the research question focuses on topics and not foundations,
+comparing between foundations adds an important nuance while still
+comparing among topics too. It highlights how different values are
+distributed across self-improvement discourse and reveals which moral
+themes are most prominent within which specific topics. After exploring
+the five moral dimensions, it is enlighting to visualize the patterns of
+the interaction between topics and foundations, leaving a lot to reflect
+on our current understanding of self improvement.</p>
+<p><br><br></p>
+<div id="moralization-and-emotions" class="section level3"
+style="text-align: center;">
+<h3>3. Moralization and emotions</h3>
+<iframe src="https://public.tableau.com/views/RQ3-1/Dashboard3?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" width="600px" height="700px">
+</iframe>
+<p><a
+href="https://public.tableau.com/views/RQ3-1/Dashboard3?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link">Link
+in case the embedding doesn’t work</a></p>
 </div>
+<p>The goal of this visualization is to highlight differences in
+negative emotion, both general and anger-specific, between posts that
+are moralized and those that are not. A bar plot was chosen for its
+simplicity and clarity, making it easy and functional for readers to
+compare values at a first look. The y-axis is clearly labeled, with an
+explicit title that accurately reflects the meaning of the values,
+preserving transparency and truthfulness in the data presentation.</p>
+<p>Colors were selected carefully: blue represents general negativity
+and red represents anger. This combination is not only intuitive but
+also visually harmonious, enhancing the visual appeal of the plot.</p>
+<p>By dividing the corpus into two distinct groups—moral vs. non-moral,
+based on the LIWC’s reported mean, the plot offers a straightforward way
+to explore the relationship between moral language and negative emotion.
+This binary approach simplifies the comparison and avoids complications
+from data imbalance, which might otherwise limit the usefulness of
+boxplots or scatterplots. In doing so, it reinforces the functionality
+of the visualization.</p>
+<p>Overall, the plot communicates that posts with higher moral tone tend
+to contain more negative emotion, supporting the hypothesis that
+moralization may be linked to emotional tension. It offers a compelling
+insight that contributes to broader discussions around the emotional
+dynamics of moral language.</p>
+<div style="text-align: center;">
+<iframe src="https://public.tableau.com/views/RQ3-2/Dashboard2?:language=en-US&amp;publish=yes&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" width="600px" height="600px">
+</iframe>
+<p><a
+href="https://public.tableau.com/views/RQ3-2/Dashboard2?:language=en-US&amp;publish=yes&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link">Link
+in case the embedding doesn’t work</a></p>
+</div>
+<p>This final plot explores the nuances of moral language at the word
+level. Built with Tableau, it allows for interactivity: users can hover
+over individual data points to see the specific word and the topic it
+belongs to, making the experience more engaging and informative. Words
+are sized according to their frequency and colored by topic. If a word
+appears in multiple topics, it is repeated accordingly, which enables a
+more detailed exploration of how moral language shifts across contexts.
+For instance, the word “wrong” takes on a noticeably stronger negative
+tone in the Mental Health topic than in Confidence &amp; Dating,
+highlighting how emotional connotation can vary by theme. Using a text
+data visualization revealed two interesting insights that would have
+been impossible to detect without a plot: As words become more negative
+in emotional tone, they also tend to become more positive, suggesting
+that self-improvement may often carry a dual emotional charge, capturing
+both the uplifting and challenging aspects of personal growth. Words
+cluster spatially by topic across the emotional axes, indicating that
+topic influences the emotional tone of moral language.</p>
+<p>Although the plot includes a large number of words, making it
+difficult to interpret every one individually, these broader patterns
+offer meaningful insights. They add depth to our understanding of how
+morality is expressed across different areas of self-improvement,
+inviting further reflection on the emotional complexity of moralized
+discourse.</p>
+<div id="references" class="section level2">
+<h2>References</h2>
+<p>Baker, Stephanie Alice. 2022. “Alt. Health Influencers: How Wellness
+Culture and Web Culture Have Been Weaponised to Promote Conspiracy
+Theories and Far-Right Extremism During the COVID-19 Pandemic.” EUROPEAN
+JOURNAL OF CULTURAL STUDIES 25 (1): 3–24. <a
+href="https://doi.org/10.1177/13675494211062623"
+class="uri">https://doi.org/10.1177/13675494211062623</a>.</p>
+<p>Bell, Beth T., Catherine V. Talbot, and Nova Deighton-Smith. 2024.
+“Following up on #Fitspiration: A Comparative Content Analysis and
+Thematic Analysis of Social Media Content Aiming to Inspire Fitness from
+2014 and 2021.” PSYCHOLOGY OF POPULAR MEDIA, February. <a
+href="https://doi.org/10.1037/ppm0000523"
+class="uri">https://doi.org/10.1037/ppm0000523</a>.</p>
+<p>Coeckelbergh, Mark. 2022. Self-Improvement : Technologies of the Soul
+in the Age of Artificial Intelligence. No Limits. New York: Columbia
+University Press. <a
+href="https://research.ebsco.com/linkprocessor/plink?id=d6c03c14-eee3-3085-a20e-3cdf5008a557"
+class="uri">https://research.ebsco.com/linkprocessor/plink?id=d6c03c14-eee3-3085-a20e-3cdf5008a557</a>.</p>
+<p>García-Alandete, Joaquín. 2022. “Striving for Personal Perfection:
+Rudolf Allers’s Psycho‑ethic‑metaphysical Approach to Character and
+Self‑improvement.” Journal of Religion and Health 61 (4): 3363–83. <a
+href="https://doi.org/10.1007/s10943-022-01605-6"
+class="uri">https://doi.org/10.1007/s10943-022-01605-6</a>.</p>
+<p>Kraaijeveld, Steven R., and Euzebiusz Jamrozik. 2022. “Moralization
+and Mismoralization in Public Health.” Medicine, Health Care and
+Philosophy 25 (4): 655–69. <a
+href="https://doi.org/10.1007/s11019-022-10103-1"
+class="uri">https://doi.org/10.1007/s11019-022-10103-1</a>.</p>
 </div>
 </div>
 
