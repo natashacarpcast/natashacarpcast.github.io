@@ -9,7 +9,7 @@ the moralization of self improvement, and this work explores it through three di
 -   RQ 3. How does the usage of moral language associate with emotions in the context of self-improvement?
 
 More detail on the topic and the motivation can be found on the website itself.
-[Click here to see the data visualization project](https://natashacarpcast.github.io/datavis.html)
+[Click here to see the data visualization project on the website](https://natashacarpcast.github.io/datavis.html)
 
 ## Data
 
