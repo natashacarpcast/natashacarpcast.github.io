@@ -1,5 +1,9 @@
 # Data Visualization Final Project 
 
+## [Link to my website](https://natashacarpcast.github.io/index.html)
+
+## Overview
+
 For my final project in this course, I started a professional website that at the moment only contains a 
 data visualization portfolio around my thesis results. My thesis topic is about
 the moralization of self improvement, and this work explores it through three different research questions: 
