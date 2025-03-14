@@ -38,7 +38,7 @@ plot for RQ1. It was also used for the first Tableau plot for RQ3.
 moral values based on the [MoralBERT classifier](https://github.com/vjosapreniqi/MoralBERT). It was used for the bottom plot from the Tableau 
 dashboard corresponding to RQ1. 
 3) [final_data.csv](datavis-files/data/final_data.csv): This file contains the results from the LIWC software combined with the results from topic modeling, where all documents
-are assigned to a single topic. It was used for the visualizatons on RQ2. 
+are assigned to a single topic. It was used for the visualizations on RQ2. 
 4) [moralwords_bytopic.csv](datavis-files/data/moralwords_bytopic.csv): This file contains the emotional scores for all moralization words in each topic, calculated by
 averaging the scores for each document in which a word appears. It was used for the text plot in RQ3. 
 
