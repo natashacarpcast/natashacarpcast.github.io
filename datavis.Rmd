@@ -50,11 +50,8 @@ The following visualizations are organized by research question.
 ::: {style="text-align: center;"}
 ### 1. Moralization across subreddits
 
-<iframe src="https://public.tableau.com/views/RQ1_17419062265120/Dashboard1?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" width="600px" height="800px"></iframe>
-
-[Link in case the embedding doesn't work](https://public.tableau.com/views/RQ1_17419062265120/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+<iframe src="https://public.tableau.com/views/RQ1_17419062265120/Dashboard1?:showVizHome=no&:embed=true" width="600px" height="700px"></iframe>
 :::
-
 <br>
 
 For assessing the presence of moral language in r/selfimprovement, it was compared with other two subreddits: r/investing and r/homeowners. Three different ways of measuring moralization were employed:
@@ -216,11 +213,9 @@ While the research question focuses on topics and not foundations, comparing bet
 ::: {style="text-align: center;"}
 ### 3. Moralization and emotions
 
-<iframe src="https://public.tableau.com/views/RQ3-1/Dashboard3?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" width="600px" height="700px"></iframe>
+<iframe src="https://public.tableau.com/views/RQ3-1/Dashboard3?:showVizHome=no&:embed=true" width="600px" height="750px"></iframe>
 
-[Link in case the embedding doesn't work](https://public.tableau.com/views/RQ3-1/Dashboard3?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 :::
-
 
 
 The goal of this visualization is to highlight differences in negative emotion, both general and anger-specific, between posts that are moralized and those that are not. A bar plot was chosen for its simplicity and clarity, making it easy and functional for readers to compare values at a first look. The y-axis is clearly labeled, with an explicit title that accurately reflects the meaning of the values, preserving transparency and truthfulness in the data presentation.
@@ -232,12 +227,8 @@ By dividing the corpus into two distinct groups—moral vs. non-moral, based on 
 Overall, the plot communicates that posts with higher moral tone tend to contain more negative emotion, supporting the hypothesis that moralization may be linked to emotional tension. It offers a compelling insight that contributes to broader discussions around the emotional dynamics of moral language.
 
 ::: {style="text-align: center;"}
-<iframe src="https://public.tableau.com/views/RQ3-2/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" width="600px" height="600px"></iframe>
+<iframe src="https://public.tableau.com/views/RQ3-2/Dashboard2?:showVizHome=no&:embed=true" width="620" height="600"></iframe>
 
-
-
-
-[Link in case the embedding doesn't work](https://public.tableau.com/views/RQ3-2/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 :::
 
 This final plot explores the nuances of moral language at the word level. Built with Tableau, it allows for interactivity: users can hover over individual data points to see the specific word and the topic it belongs to, making the experience more engaging and informative.
