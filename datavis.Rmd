@@ -50,7 +50,7 @@ The following visualizations are organized by research question.
 ::: {style="text-align: center;"}
 ### 1. Moralization across subreddits
 
-<iframe src="https://public.tableau.com/views/RQ1_17419062265120/Dashboard1?:showVizHome=no&:embed=true" width="600px" height="800px"></iframe>
+<iframe src="https://public.tableau.com/views/RQ1_17419062265120/Dashboard1?:showVizHome=no&:embed=true" width="600px" height="900px"></iframe>
 :::
 <br>
 
